@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+   
+    <title>Peadiatric Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+             <h1>PEAD CALC</h1>
+             <h4>expected value for age </h4>
+        </div>
+        <h4>Solve for Infants</h4>
+        <div class="infant">
+           
+            <div class="expected-weight">
+               <h5>Expected Infant weight</h5>
+               <input id="expectedWeightAge" type="number" placeholder="input age in months">
+               <br>
+               <button onclick="expectedWeightInfant()">Submit</button>
+               <button onclick="reload()">Clear</button>
+               <h5 id="expectedWeightAgeHeading"></h5>
+               <p id="expectedWeightAgeOutput"></p>
+            </div>
+              
+
+            <div class="expected-length">
+               <h5>Expected Infant Length</h5>
+               <input id="expectedLengthAge" type="number" placeholder="input age in months">
+               <br>
+               <button onclick="expectedLengthInfant()">Submit</button>
+               <button onclick="reload()">Clear</button>
+               <h5 id="expectedLengthAgeHeading"></h5>
+               <p id="expectedLengthAgeOutput"></p>
+            </div>
+            <div class="expected-dentition">
+                <h5>Expected Infant Dentition</h5>
+                <input id="expectedDentitionAge" type="number" placeholder="input age in months">
+                <br>
+                <button onclick="expectedDentitionInfant()">Submit</button>
+                <button onclick="reload()">Clear</button>
+                <h5 id="expectedDentitionAgeHeading"></h5>
+                <p id="expectedDentitionAgeOutput"></p>
+            </div>
+        </div>
+        <h4>Solve for Children</h4>
+        <div class="children">
+            <div class="expected-child-weight">
+                <h5>Expected Child weight</h5>
+               <input id="expectedWeightChildAge" type="number" placeholder="input age in years">
+               <br>
+               <button onclick="expectedWeightChild()">Submit</button>
+               <button onclick="reload()">Clear</button>
+               <h5 id="expectedWeightChildAgeHeading"></h5>
+               <p id="expectedWeightChildAgeOutput"></p>
+            </div>
+        </div>
+       
+    </div>
+    
+    <script src="./index.js"></script> 
+</body>
+</html>

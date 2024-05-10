@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./pics/istockphoto-520170144-1024x1024.jpg);
+    background-size: 250px;
+    color: #090a0b;
+    font-family: cursive;
+}
+
+.container{
+  text-align: center;
+  margin: 0px auto;
+  width: 55%;
+  padding: 32px;
+  background: #ffffffd6;
+  border-radius: 30px;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    /* margin: 35vh auto; */
+    background-color:  #f18e8e;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+.infant {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media (max-width: 800px) {
+    .infant {
+      flex-direction: column;
+    }
+  }
+
+  button {
+    background-color: #f18e8e;
+    border: none;
+    color: white;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-bloc
+    font-size: 16px;
+  }
